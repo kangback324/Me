@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    margin: 15px 30px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+ul img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+}
+
+#info {
+    gap: 50px;
+    margin: 100px 30px 50px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#info h1 {
+    margin: 15px 0;
+}
+
+#link h1 , #project h1, #me h1 {
+    margin: 30px 0;
+}
+
+#info img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#right {
+    text-align: left;
+}
+
+#boxs {
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    height: 200px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+#stack {
+    width: 499.75px;
+    display: flex;
+}
+
+#stack .box {
+    margin: 0 5px;
+}
